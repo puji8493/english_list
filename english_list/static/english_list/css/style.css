@@ -1,0 +1,39 @@
+body{
+    width: 1700px;
+    background-color: lavender;
+
+}
+
+hi{
+    font-size: 2.2em;
+    font-weight: bold;
+    height: 50px;
+    background-color: silver;
+    padding-left: 10px;
+    color: blueviolet;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 14px;
+}
+
+th {
+    background-color: cornflowerblue;
+}
+
+.th_id,.td_id {
+    width: 50px;
+}
+.th_category,.td_category{
+    width:150px;
+}
+.th_ja_word,.td_ja_word{
+    width:450px;
+}
+.th_en_word,.td_en_word{
+    width:550px;
+}
+.th_memo,.td_memo{
+    width:500px;
+}
