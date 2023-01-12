@@ -1,10 +1,10 @@
 from django import forms
+from .models import WordLists
 
-class InputForm(forms.Form):
-    category = forms.CharField(label='カテゴリー')
-    ja_word = forms.CharField(label='日本語')
-    en_word = forms.CharField(label='英語')
-    memo = forms.CharField(label='メモ')
+class UserForm(forms.ModelForm):
+    class Meta():
+        model = WordLists
+        fields = '__all__'
 
 
 # from django import forms
