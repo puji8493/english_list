@@ -1,6 +1,6 @@
 body{
-    width: 1700px;
-    background-color: lavender;
+    width: 1350px;
+    background-color: white;
 
 }
 
@@ -19,21 +19,30 @@ p{
 }
 
 th {
-    background-color: cornflowerblue;
+    background-color: hotpink;
+}
+
+table{
+    border: solid 1px;
 }
 
 .th_id,.td_id {
     width: 50px;
+    border: solid 1px;
 }
 .th_category,.td_category{
-    width:150px;
+    width:100px;
+    border: solid 1px;
 }
 .th_ja_word,.td_ja_word{
-    width:450px;
+    width:300px;
+    border: solid 1px;
 }
 .th_en_word,.td_en_word{
-    width:550px;
+    width:300px;
+    border: solid 1px;
 }
 .th_memo,.td_memo{
-    width:500px;
+    width:300px;
+    border: solid 1px;
 }
