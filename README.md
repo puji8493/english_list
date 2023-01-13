@@ -4,7 +4,7 @@
 
 |項目  | 説明|
 |-----------------|----------------------------------------------|
-| URL   | english_list/input_form|
+| URL   | /english_list/input_form|
 | 内容  | カテゴリー、日本語、英語、メモを入力して、DBに反映するページ                              |
 | 備考  | forms.ModelFormクラスを利用。|
 | 　　  |  vies.pyで、fromで送信した値を取り出して保存した後、formは初期化。
